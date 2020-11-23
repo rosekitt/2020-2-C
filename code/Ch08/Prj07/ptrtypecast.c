@@ -15,7 +15,7 @@ int main(void)
 	for (int i = 0; i <= 3; i++)
 	{
 		char ch = *(pc + i);
-			printf("*(pc+%d) %0#6x %u\n", i, ch, ch, pc + 1);
+			printf("*(pc+%d) %0#6x %2c  %u\n", i, ch, ch, pc + 1);
 	}
 
 	return 0;
