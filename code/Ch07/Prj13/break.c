@@ -1,5 +1,5 @@
 //file: break.c
-#define _CRT_SECUE_NO_WARNINGS// scanf( )오류를 방지하기 위한 상수 정의
+#define _CRT_SECURE_NO_WARNINGS // scanf( )오류를 방지하기 위한 상수 정의
 
 #include <stdio.h>
 
@@ -10,7 +10,7 @@ int main(void)
 	while (1)
 	{
 		printf("정수[음수, 0 (종료), 양수]를 입력 후 [ENTER] : ");
-		SCANF("%d", &input);
+		scanf ("%d", &input);
 		printf("입력한 정수 %d\n", input);
 		if (input == 0)
 			break;
